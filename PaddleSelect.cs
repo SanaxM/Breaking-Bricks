@@ -23,13 +23,6 @@ namespace Breakout
             One.Visible = false;
             Two.Visible = false;
             Three.Visible = false;
-            for (int i = 0; i < Grid.GetLength(0); i++)
-            {
-                for (int j = 0; j < Grid.GetLength(1); j++)
-                {
-                   // Grid[i, j].Visible = false;
-                }
-            }
             Title.Visible = false;
 
             //set the paddle to be what the user wants
