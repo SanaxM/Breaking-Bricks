@@ -125,7 +125,6 @@ namespace Breakout
             //reverse the direction of the ball and use pythagorean theorem to set new speed
             if (Speed < 14)
             {
-                // Velocity.X *= 1;
                 if (Math.Sqrt(Velocity.Y) != Math.Pow(Velocity.Y, 2))
                     Velocity.Y *= -1.05;
                 else
