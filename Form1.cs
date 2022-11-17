@@ -239,7 +239,6 @@ namespace Breakout
                 if (lblGameOver.Visible == true)
                 {
                     //close the current form
-                    //this.Close();
                     //when the user wants to go to back to the main menu, relaunch the application from the beginning
                     //I searched how to restart an application and found the following code:
                     Application.Restart();
